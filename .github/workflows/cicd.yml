@@ -40,3 +40,5 @@ jobs:
         uses: actions-rs/cargo@v1
         with:
           command: bench
+    env:
+      RUST_BACKTRACE: 1
