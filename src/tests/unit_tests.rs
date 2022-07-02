@@ -5,7 +5,7 @@ fn add(num_one: u8, num_two: u8) -> u8 {
 }
 
 #[cfg(test)]
-mod tests {
+pub mod unit {
     // allow access to outer fn
     use super::*;
 
