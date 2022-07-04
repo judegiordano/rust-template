@@ -36,4 +36,8 @@ cargo test <specific_test_name>
 cargo test <partial_test_name>
 cargo test -- --ignored
 cargo test -- --include-ignored
+cargo login
+cargo publish
+cargo yank --vers 1.0.1
+cargo yank --vers 1.0.1 --undo
 ```
