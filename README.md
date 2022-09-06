@@ -8,6 +8,8 @@
 
 [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/about.html)
 
+[Rustlings](https://github.com/rust-lang/rustlings)
+
 ```sh
 rustup toolchain install nightly
 rustup component add clippy
